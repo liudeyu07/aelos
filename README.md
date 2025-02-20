@@ -8,7 +8,7 @@
 
 windows中运行ROS_Aelos1中的main.py：
 
-![](C:\Users\DELL\Desktop\竞赛\ROS\image\1.1.png)
+![](image\1.1.png)
 
 
 
@@ -20,9 +20,9 @@ windows中运行ROS_Aelos1中的main.py：
 
 在unbutu中在ros_task文件夹打开命令行，roscore启动后用roslaunch image_processing image_processing.launch运行代码，用rqt_image_view使用rqt_image工具查看处理完后输出的图像topic
 
-![](C:\Users\DELL\Desktop\竞赛\ROS\image\1.2.1.png)
+![](image\1.2.1.png)
 
-![](C:\Users\DELL\Desktop\竞赛\ROS\image\1.2.2.png)
+![](image\1.2.2.png)
 
 ### 2 进阶任务[](https://irctasks.readthedocs.io/zh-cn/latest/aelostask.html#id3)
 
@@ -40,6 +40,6 @@ windows中运行ROS_Aelos1中的main.py：
 
 用rostopic echo /yolov5_detections查看发布的消息内容，包含检测到的物体信息和坐标。
 
-![](C:\Users\DELL\Desktop\竞赛\ROS\image\2.1.png)
+![](image\2.1.png)
 
-![](C:\Users\DELL\Desktop\竞赛\ROS\image\2.2.png)
+![](image\2.2.png)
