@@ -1,0 +1,8 @@
+prefix=/home/yyros/ros_task/install
+
+Name: yolov5_ros_noetic
+Description: Description of yolov5_ros_noetic
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

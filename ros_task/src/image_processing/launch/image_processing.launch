@@ -1,0 +1,9 @@
+<launch>
+    <!-- 启动图像发布节点 -->
+    <node name="image_publisher" pkg="image_processing" type="img_pub.py" output="screen">
+        <param name="image_path" value="$(find image_processing)/images/red_ball.png" />
+    </node>
+
+    <!-- 启动图像处理节点 -->
+    <node name="image_subscriber" pkg="image_processing" type="img_sub.py" output="screen" />
+</launch>

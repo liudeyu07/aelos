@@ -1,0 +1,8 @@
+prefix=/home/yyros/ros_task/devel
+
+Name: yolo_ros
+Description: Description of yolo_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,2 @@
+image_processing:yolov5_ros_noetic
+-DCATKIN_DEVEL_PREFIX=/home/yyros/ros_task/devel -DCMAKE_INSTALL_PREFIX=/home/yyros/ros_task/install -G Unix Makefiles
