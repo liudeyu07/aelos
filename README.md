@@ -8,7 +8,7 @@
 
 windows中运行ROS_Aelos1中的main.py：
 
-![](image\1.1.png)
+![](\image\1.1.png)
 
 
 
