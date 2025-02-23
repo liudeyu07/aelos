@@ -32,7 +32,7 @@ windows中运行ROS_Aelos1中的main.py：
 - 将yolo识别到的物体在视频中的像素坐标通过ros话题发布
 
 采用yolov5完成任务
-![](https://github.com/liudeyu07/aelos/blob/main/image/2.1.png)
+![](https://github.com/liudeyu07/aelos/blob/main/image/2.0.png)
 在ROS\ros_task\src\yolov5_ros_noetic代码中完成相应的yolov5路径设置并调整适合的发布频率后运行rosrun yolov5_ros_noetic yolov5_ros_node.py
 
 函数最后 `return frame`，返回经过绘制 bounding box 的图像帧，也可以使用rqt_image工具查看处理完后输出的图像topic
