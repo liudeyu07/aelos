@@ -33,7 +33,7 @@ windows中运行ROS_Aelos1中的main.py：
 
 采用yolov5-v7.0完成任务
 ![](https://github.com/liudeyu07/aelos/blob/main/image/2.0.png)
-下载yolov5-v7.0并完成环境配置后，在ROS\ros_task\src\yolov5_ros_noetic代码中完成相应的yolov5路径设置，并调整适合的发布频率后运行rosrun yolov5_ros_noetic yolov5_ros_node.py
+下载yolov5-v7.0【https://github.com/ultralytics/yolov5/tree/v7.0】并完成环境配置后，在ROS\ros_task\src\yolov5_ros_noetic代码中完成相应的yolov5路径设置，并调整适合的发布频率后运行rosrun yolov5_ros_noetic yolov5_ros_node.py
 
 函数最后 `return frame`，返回经过绘制 bounding box 的图像帧，也可以使用rqt_image工具查看处理完后输出的图像topic
 
